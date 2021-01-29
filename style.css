@@ -10,7 +10,7 @@
 }
 .contact{
     width: 500px;
-    height: 750px;
+   
     
 }
 .contact div p{
@@ -25,9 +25,35 @@
     height: 56px;
     }
 
-::placeholder{
-    color: orange;
+.shipping div p{
+    margin-bottom: 0%;
 }
+.shipping div input{
+        border: 1px solid #828282;
+        border-radius: 12px;
+        width: 465px;
+        height: 56px;
+        }
+.subinput div p{
+    margin-bottom: 0%;
+}
+.subinput{
+   display:flex;
+    width: 217px;
+}
+
+.subinput input{
+        border: 1px solid #828282;
+        border-radius: 12px;
+         width: 217px;
+        height: 56px;
+        }
+
+.placehold{
+    font-family:FontAwesome;
+    font-size:20px;
+}
+
 
 aside{
     position:relative;
