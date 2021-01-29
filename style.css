@@ -51,7 +51,21 @@
 
 .placehold{
     font-family:FontAwesome;
-    font-size:20px;
+    font-size:18px;
+}
+.checkbox{
+   display:flex; 
+}
+.checkbox input{
+    margin-top:10px;
+    width: 21px;
+height: 21px;
+border: 1px solid #828282;
+border-radius: 4px;
+}
+.checkbox p{
+    font-size: 14px;
+
 }
 
 
