@@ -11,10 +11,15 @@
     color: #333333; 
     font-size:36px
 }
+.contact h3{
+    color: #333333; 
+    font-size:18px
+}
 .contact div p{
     text-align:left;
     margin-bottom: 0%;
     color: #333333;
+    font-size:12px;
 }
 
 .contact div input{
@@ -38,8 +43,14 @@
     filter: invert(55%) sepia(5%) saturate(12%) hue-rotate(335deg) brightness(93%) contrast(87%);
     }
 
+.shipping h3{
+    color: #333333; 
+    font-size:18px
+}
 .shipping div p{
     margin-bottom: 0%;
+    color: #333333;
+    font-size:12px;
 }
 .shipping div input{
         border: 1px solid #828282;
@@ -64,7 +75,8 @@
     }
 .subinput div p{
     margin-bottom: 0%;
-
+    font-size: 12px;
+    color: #333333;
 }
 .subinput{
    display:flex;
@@ -142,6 +154,7 @@ aside div img{
 }
 aside h3{
     margin-bottom:5px;
+    
 }
 .cart {
     font-size:16px; 
@@ -176,6 +189,7 @@ aside hr{
 aside div:nth-child(6){
     width: 85%;
     margin: auto;
+    font-size: 18px;
 }
 aside div:nth-child(6) p:nth-child(1){
    width: 80%;
@@ -184,6 +198,7 @@ aside div:nth-child(6) p:nth-child(1){
 aside div:nth-child(8){
     width: 85%;
     margin: auto;
+    font-size: 18px;
 }
 aside div:nth-child(8) p:nth-child(1){
    width: 80%;
@@ -213,14 +228,96 @@ aside{
      float:none;
      position:relative;
      left:0%;
+     font-size:12px
  }
+
+aside div:nth-child(6){
+    font-size: 14px;
+}
+aside div:nth-child(8){
+    font-size: 14px;
+}
+
 aside div img{
     width: 160.71px;
     height: 124.32px; 
 }
 
+.cart{
+    width: 110px;
+height: 35px;
+font-size: 12px;
+}
 
+.cart input{
+    width: 10px;
+}
+.cart span{
+    width:10px;
+    height:10px;
+    font-size: 10px;
+}
 button{
     margin-left: 22%;
+}
+.contact h3{
+   font-size:14px
+}
+
+.contact div p{
+    font-size:10px;
+}
+.contact div input{
+    width: 330px;
+    height: 40px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.contact div img{
+    width: 15px;
+    height: 15px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.shipping h3{
+    font-size:14px
+ }
+ 
+ .shipping div p{
+     font-size:10px;
+ }
+.shipping div input{
+    width: 330px;
+    height: 40px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.shipping div img{
+    width: 15px;
+    height: 15px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.subinput div p{
+    font-size:10px;
+}
+.subinput div input{
+    width: 135px;
+    height: 40px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.subinput div img{
+    width: 15px;
+    height: 15px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+button{
+    height: 54px;
+    width:166px;
+    position: relative;
+    left: 100px;
 }
 }
