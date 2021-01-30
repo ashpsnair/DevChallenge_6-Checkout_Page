@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 .main{
+    transition: easeall height 1s ,width 1s;
     width:1000px;
     margin: auto;
     max-width: 1440px;
@@ -31,7 +32,7 @@
     font-size:16px;
     margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
-
+    transition: height 0.7s ,width 0.7s;
     }
 
 .contact div img{
@@ -61,7 +62,7 @@
         padding-left: 40px;
         margin-top: 10px;
         font-family: 'Montserrat', sans-serif;
-
+        transition: height 0.7s ,width 0.7s;
         }
 
 .shipping div img{
@@ -114,6 +115,7 @@
 height: 21px;
 border: 1px solid #828282;
 border-radius: 4px;
+transition: height 0.7s ,width 0.7s;
 }
 .checkbox p{
     font-size: 14px;  
@@ -131,7 +133,7 @@ aside{
     color: #4E5150;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    
+    transition: height 0.7s ,width 0.7s;
 }
 aside div {
     display:flex;
@@ -216,6 +218,14 @@ button{
     border-radius: 12px;
     color:white;
     font-size:16px;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    color:#4E5150;
+    font-size: 16px;
 }
 @media only screen and (max-width:1100px){
 .main{
@@ -321,6 +331,9 @@ button{
     height: 54px;
     width:166px;
     position: relative;
-    left: 100px;
+    left: 140px;
+}
+footer{
+    font-size: 12px;
 }
 }
