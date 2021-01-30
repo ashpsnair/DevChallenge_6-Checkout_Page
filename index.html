@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
     <link rel="stylesheet" href="/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkout Page</title>
 </head>
 <body>
-<div id="main">
-    <h1> Checkout </h1>
+<div class="main">
+    <h1 > Checkout </h1>
     <aside>
         <div>
             <img src="/photo1.png" >
             <div>
                 <h3>Vintage Backbag</h3>
-                <div> <a> $54.99</a> <a style="width: 15px;"> </a> <a> $54.99</a></div>
+                <div> <a> $54.99</a> <a style="width: 15px;"> </a> <a><strike> $94.99</strike></a></div>
                 <div class="cart">
                     <span class="minus">&#8722</span>
 	                <input type="text" value="1"/>
@@ -25,8 +26,8 @@
         <div>
             <img src="/photo2.png" >
             <div>
-                <h3>Vintage Backbag</h3>
-                <div> <a> $54.99</a> <a style="width: 15px;"> </a> <a> $54.99</a></div>
+                <h3>Levi Shoes</h3>
+                <div> <a>$74.99</a> <a style="width: 15px;"> </a> <a><strike> $124.99</strike></a></div>
                 <div class="cart">
                     <span class="minus">&#8722</span>
 	                <input type="text" value="1"/>
@@ -38,18 +39,18 @@
         <hr>
         <div>
             <p>Shipping </p>
-            <p>dollars</p>
+            <p>$19</p>
         </div>
         <hr>
         <div>
-            <p>Shipping </p>
-            <p>dollars</p>
+            <p>Total</p>
+            <p>$148.98</p>
         </div>  
         
 
     </aside>
     <div class="contact">
-       <h3>Contact Information</h3>
+       <h3 style="color: #333333; font-size:18px">Contact Information</h3>
        <div>
            <p>E-mail</p>
            <img src="/email-black-18dp.svg" >
@@ -63,7 +64,7 @@
     </div>
     <br>
     <div class="shipping">
-        <h3>Shipping address</h3>
+        <h3 style="color: #333333; font-size:18px">Shipping address</h3>
         <div>
             <p>Full name</p>
             <img src="/account_circle-black-18dp.svg" >
@@ -85,9 +86,9 @@
         <div style="margin-right: 20px;">
             <p>Country</p>
             <img src="/public-black-18dp.svg" >
-            <input type="text" placeholder="Your country..." />
+            <input style="font-family:'Montserrat', sans-serif, FontAwesome;" type="text" placeholder="Your country...     &#xf0d7;" />
            </div>
-           
+    
            <div>
                <p>Postal Code</p>
                <img src="/markunread_mailbox-black-18dp.svg" >
@@ -96,7 +97,7 @@
 
      </div>
      <span class="checkbox"><input type="checkbox"> <p>Save this information for next time</p></span>
- 
+     <button>continue</button>
     </div>
 </body>
 </html>
