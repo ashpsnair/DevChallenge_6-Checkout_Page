@@ -95,10 +95,80 @@ border-radius: 4px;
 aside{
     position:relative;
     float:right;
-    background-color:wheat;
+    background: #F2F2F2;
     width: 383px;
     height: 535px;
     transition: left 0.5s;
+    border-radius: 12px;
+}
+aside div {
+    display:flex;
+}
+aside div div{
+    display:block;
+}
+
+aside div div div{
+    display:flex;
+}
+aside div div div a:nth-child(1){
+    color: #F2994A;
+
+}
+aside div img{
+    width: 134.21px;
+    height: 136.27px;
+    border-radius: 30px;
+    padding: 20px;
+}
+aside h3{
+    margin-bottom:5px;
+}
+.cart {
+    font-size:16px; 
+    border: 1px solid #828282;
+    width: 134.25px;
+    height: 52px;
+    border-radius: 12px;
+    margin-top: 30px;
+    color: #333333;
+    ;
+
+}
+.cart input{
+    width: 50px;
+    background: #F2F2F2;
+    text-align: center;
+    border: none;
+}
+
+.cart span{
+    width:21px;
+    height:21px;
+    background: #E0E0E0;
+    border-radius:4px;
+    text-align: center;
+    margin: auto;
+
+}
+aside hr{
+    width: 327.06px;
+}
+aside div:nth-child(6){
+    width: 85%;
+    margin: auto;
+}
+aside div:nth-child(6) p:nth-child(1){
+   width: 80%;
+
+}
+aside div:nth-child(8){
+    width: 85%;
+    margin: auto;
+}
+aside div:nth-child(8) p:nth-child(1){
+   width: 80%;
+
 }
 
 @media only screen and (max-width:1100px){
